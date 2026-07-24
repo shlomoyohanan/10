@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">לכבוד השם יתברך</string>
+    <string name="device_admin_description">הגנה למניעת הסרת האפליקציה ושמירת סינון המכשיר</string>
+    <string name="block_message">האפליקציה נחסמה לכבוד השם יתברך</string>
+</resources>
