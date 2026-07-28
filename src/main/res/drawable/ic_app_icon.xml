@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- רקע לבן מעגלי -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,10C27.9,10 10,27.9 10,50s17.9,40 40,40 40,-17.9 40,-40S72.1,10 50,10z"/>
+
+    <!-- אייקון בית המקדש השני -->
+    <group android:translateX="18" android:translateY="22" android:scaleX="0.65" android:scaleY="0.65">
+        <!-- חומות חיצוניות -->
+        <path android:fillColor="#3F51B5" android:pathData="M0,80 h100 v10 h-100 z"/>
+        <path android:fillColor="#3F51B5" android:pathData="M0,70 h10 v10 h-10 z"/>
+        <path android:fillColor="#3F51B5" android:pathData="M90,70 h10 v10 h-10 z"/>
+        <!-- שער ראשי -->
+        <path android:fillColor="#3F51B5" android:pathData="M40,68 h20 v17 a6,6 0 0 1 -20,0 z"/>
+        <!-- רחבה פנימית והיכל -->
+        <path android:fillColor="#3F51B5" android:pathData="M15,48 h70 v7 h-70 z"/>
+        <path android:fillColor="#3F51B5" android:pathData="M30,25 h40 v25 h-40 z"/>
+        <path android:fillColor="#3F51B5" android:pathData="M35,25 l15,-10 l15,10 z"/>
+        <path android:fillColor="#3F51B5" android:pathData="M46,47 h8 v-12 h-8 z"/>
+        <!-- מדרגות -->
+        <path android:fillColor="#3F51B5" android:pathData="M38,85 h24 v2 h-24 z M35,87 h30 v2 h-30 z"/>
+    </group>
+</vector>
