@@ -4,6 +4,8 @@
     <application
         android:allowBackup="true"
         android:label="FilterApp"
+        android:icon="@drawable/ic_app_icon"
+        android:roundIcon="@drawable/ic_app_icon"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
         
